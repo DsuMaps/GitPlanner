@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:layout_margin="10dp"
+    android:weightSum="7">
+
+    <Button
+        android:id="@+id/createevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Create Event"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_bg"/>
+    <Button
+        android:id="@+id/schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Schedule"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_bg"/>
+    <Button
+        android:id="@+id/events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Events"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_bg"/>
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Connect"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_bg"/>
+
+</LinearLayout>

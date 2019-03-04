@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEvent"
+    android:background="#ADD8E6"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/eventname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name Of Event"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        />
+    <EditText
+        android:id="@+id/duedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Due Date/Done By"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"/>
+    <EditText
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hours It Will Take"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"/>
+    <EditText
+        android:id="@+id/sessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Number of Sessions You Want To Divide Into"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"/>
+    <Button
+        android:id="@+id/submitEvent"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light"/>
+
+</LinearLayout>
