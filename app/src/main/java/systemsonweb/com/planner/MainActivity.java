@@ -13,10 +13,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        login = findViewById(R.id.login);
-        signup = findViewById(R.id.signup);
+        System.out.println("************************* 5");
 
+        setContentView(R.layout.activity_main);
+ //       setContentView(R.layout.activity_login);
+
+        System.out.println("************************* 6");
+
+        login = findViewById(R.id.login);
+        System.out.println("************************* 7");
+        signup = findViewById(R.id.signup);
+        System.out.println("************************* 8");
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        System.out.println("************************* 2");
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        System.out.println("************************* 3");
+
     }
 
 
