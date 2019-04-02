@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -28,7 +29,8 @@
         <activity android:name=".Home" />
         <activity android:name=".ComingSoon" />
         <activity android:name=".CreateEvent" />
-        <activity android:name=".Schedule"></activity>
+        <activity android:name=".Schedule" />
+        <activity android:name=".SignUp"></activity>
     </application>
 
 </manifest>

@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(v.getContext(),Login.class);
+                finish();
                 startActivityForResult(myIntent, 0);
+
 
             }
         });
@@ -38,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent2 = new Intent(v.getContext(),ComingSoon.class);
+                Intent myIntent2 = new Intent(v.getContext(),SignUp.class);
+                finish();
                 startActivityForResult(myIntent2, 0);
 
 
